@@ -1,0 +1,37 @@
+html{
+    background-color: black;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button{
+    position: relative;
+    width:400px;
+    height:100px;
+    border: 5px solid white;
+    font-size: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+.b2:hover{
+    transform: scale(1.2,1.2); 
+}
+.b3{
+    left:0%;
+}
+.b3:hover{
+    left:5%;
+}
